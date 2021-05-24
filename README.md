@@ -1,1 +1,1 @@
-# curso-porteo-apps-swiftui
+# curso-especializacion-swiftui
