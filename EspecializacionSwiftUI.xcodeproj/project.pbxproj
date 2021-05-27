@@ -24,6 +24,7 @@
 		3609615A265E37CE00E8BD9C /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36096159265E37CE00E8BD9C /* SaveData.swift */; };
 		3609615C265E385A00E8BD9C /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609615B265E385A00E8BD9C /* SUImagePickerView.swift */; };
 		361536B7265F56F00048107A /* SistemaPuntos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361536B6265F56F00048107A /* SistemaPuntos.swift */; };
+		361536B9265F5EA80048107A /* Assets2x3x.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361536B8265F5EA80048107A /* Assets2x3x.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		36096159265E37CE00E8BD9C /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
 		3609615B265E385A00E8BD9C /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
 		361536B6265F56F00048107A /* SistemaPuntos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SistemaPuntos.swift; sourceTree = "<group>"; };
+		361536B8265F5EA80048107A /* Assets2x3x.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets2x3x.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				36096151265E369D00E8BD9C /* ProfileView.swift */,
 				36096153265E36E700E8BD9C /* EditProfileView.swift */,
 				361536B6265F56F00048107A /* SistemaPuntos.swift */,
+				361536B8265F5EA80048107A /* Assets2x3x.swift */,
 			);
 			path = Vistas;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				3609615A265E37CE00E8BD9C /* SaveData.swift in Sources */,
 				36096152265E369D00E8BD9C /* ProfileView.swift in Sources */,
 				36096148265E349D00E8BD9C /* Model.swift in Sources */,
+				361536B9265F5EA80048107A /* Assets2x3x.swift in Sources */,
 				3609615C265E385A00E8BD9C /* SUImagePickerView.swift in Sources */,
 				3609614A265E355D00E8BD9C /* HomeView.swift in Sources */,
 				3609614C265E358600E8BD9C /* GamesView.swift in Sources */,
