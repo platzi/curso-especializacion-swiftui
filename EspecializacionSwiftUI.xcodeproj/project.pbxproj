@@ -23,6 +23,7 @@
 		36096158265E378F00E8BD9C /* SearchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36096157265E378F00E8BD9C /* SearchGame.swift */; };
 		3609615A265E37CE00E8BD9C /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36096159265E37CE00E8BD9C /* SaveData.swift */; };
 		3609615C265E385A00E8BD9C /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609615B265E385A00E8BD9C /* SUImagePickerView.swift */; };
+		361536B7265F56F00048107A /* SistemaPuntos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361536B6265F56F00048107A /* SistemaPuntos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		36096157265E378F00E8BD9C /* SearchGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGame.swift; sourceTree = "<group>"; };
 		36096159265E37CE00E8BD9C /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
 		3609615B265E385A00E8BD9C /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
+		361536B6265F56F00048107A /* SistemaPuntos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SistemaPuntos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				3609614F265E365000E8BD9C /* FavoritesView.swift */,
 				36096151265E369D00E8BD9C /* ProfileView.swift */,
 				36096153265E36E700E8BD9C /* EditProfileView.swift */,
+				361536B6265F56F00048107A /* SistemaPuntos.swift */,
 			);
 			path = Vistas;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				36096135265E317A00E8BD9C /* ContentView.swift in Sources */,
 				36096150265E365000E8BD9C /* FavoritesView.swift in Sources */,
 				3609614E265E35F200E8BD9C /* GameView.swift in Sources */,
+				361536B7265F56F00048107A /* SistemaPuntos.swift in Sources */,
 				36096158265E378F00E8BD9C /* SearchGame.swift in Sources */,
 				36096133265E317A00E8BD9C /* EspecializacionSwiftUIApp.swift in Sources */,
 			);
