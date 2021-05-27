@@ -163,6 +163,7 @@ struct SubModuloHome:View {
                     
                     
                     TextField("", text: $textoBusqueda).foregroundColor(.white)
+                        
                     
                     
                 }

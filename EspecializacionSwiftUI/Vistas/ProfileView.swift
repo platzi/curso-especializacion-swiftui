@@ -86,6 +86,13 @@ struct ProfileView: View {
         
         
         )
+        .onDisappear(
+        
+            perform: {
+                print("Guardar informacion relevante")
+            }
+        
+        )
        
    }
     
