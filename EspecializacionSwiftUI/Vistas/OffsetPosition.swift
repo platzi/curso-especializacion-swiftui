@@ -12,12 +12,21 @@ struct OffsetPosition: View {
         
         
         
-        
-        VStack {
-            Offsets()
-        
-            //Positions()
-        }
+GeometryReader(content: { geometry in
+            VStack {
+                
+                
+                Image("platzi").resizable().aspectRatio(contentMode: .fit).frame(width: geometry.size.width/2, height: geometry.size.height/3)
+                
+                
+                
+                
+                //Offsets()
+            
+                //Positions()
+            }.frame( maxWidth: .infinity,  maxHeight: .infinity)
+            
+        })
         
         
         
