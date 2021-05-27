@@ -25,6 +25,7 @@
 		3609615C265E385A00E8BD9C /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609615B265E385A00E8BD9C /* SUImagePickerView.swift */; };
 		361536B7265F56F00048107A /* SistemaPuntos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361536B6265F56F00048107A /* SistemaPuntos.swift */; };
 		361536B9265F5EA80048107A /* Assets2x3x.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361536B8265F5EA80048107A /* Assets2x3x.swift */; };
+		361536BB265F63700048107A /* OffsetPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361536BA265F63700048107A /* OffsetPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		3609615B265E385A00E8BD9C /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
 		361536B6265F56F00048107A /* SistemaPuntos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SistemaPuntos.swift; sourceTree = "<group>"; };
 		361536B8265F5EA80048107A /* Assets2x3x.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets2x3x.swift; sourceTree = "<group>"; };
+		361536BA265F63700048107A /* OffsetPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetPosition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				36096153265E36E700E8BD9C /* EditProfileView.swift */,
 				361536B6265F56F00048107A /* SistemaPuntos.swift */,
 				361536B8265F5EA80048107A /* Assets2x3x.swift */,
+				361536BA265F63700048107A /* OffsetPosition.swift */,
 			);
 			path = Vistas;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				3609614C265E358600E8BD9C /* GamesView.swift in Sources */,
 				36096135265E317A00E8BD9C /* ContentView.swift in Sources */,
 				36096150265E365000E8BD9C /* FavoritesView.swift in Sources */,
+				361536BB265F63700048107A /* OffsetPosition.swift in Sources */,
 				3609614E265E35F200E8BD9C /* GameView.swift in Sources */,
 				361536B7265F56F00048107A /* SistemaPuntos.swift in Sources */,
 				36096158265E378F00E8BD9C /* SearchGame.swift in Sources */,

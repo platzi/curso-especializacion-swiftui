@@ -28,6 +28,7 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 250)
                     .padding(.bottom, 60.0)
+               // .offset(x: 0, y: 25.0)
          
                 
                 InicioYRegistroView()
