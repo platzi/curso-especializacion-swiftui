@@ -138,12 +138,11 @@ struct SubModuloHome:View {
     @State var imgsUrl:[String] = [""]
     
     
-    
+    var dispositivo = UIDevice.current.model
     
     var body: some View{
         
         VStack{
-            
             
             
             HStack {
@@ -159,7 +158,8 @@ struct SubModuloHome:View {
                     
                     
                     
-                    if textoBusqueda.isEmpty { Text("Buscar un video").foregroundColor(Color(red: 174/255, green: 177/255, blue: 185/255, opacity: 1.0)) }
+                    if textoBusqueda.isEmpty { Text(
+                        dispositivo).foregroundColor(Color(red: 174/255, green: 177/255, blue: 185/255, opacity: 1.0)) }
                     
                     
                     TextField("", text: $textoBusqueda).foregroundColor(.white)
@@ -216,58 +216,121 @@ struct SubModuloHome:View {
             
             
             ScrollView(.horizontal,showsIndicators: false){
+               
                 
                 
-                HStack{
+                if dispositivo == "iPad"{
+                    HStack{
+                        
+                        Button(action: {}, label: {
+                            
+                            ZStack{
+                                
+                                RoundedRectangle(cornerRadius: 8)
+                                    .fill(Color("Blue-Gray"))
+                                    .frame(width: 320, height: 180)
+                                
+                                Image("FPS").resizable().scaledToFit().frame(width: 84, height: 84)
+                                
+                                
+                                
+                            }
+                            
+                        })
+                        
+                        Button(action: {}, label: {
+                            
+                            ZStack{
+                                
+                                RoundedRectangle(cornerRadius: 8)
+                                    .fill(Color("Blue-Gray"))
+                                    .frame(width: 320, height: 180)
+                                
+                                Image("RPG").resizable().scaledToFit().frame(width: 84, height: 84)
+                                
+                                
+                                
+                            }
+                            
+                        })
+                        
+                        Button(action: {}, label: {
+                            
+                            ZStack{
+                                
+                                RoundedRectangle(cornerRadius: 8)
+                                    .fill(Color("Blue-Gray"))
+                                    .frame(width: 320, height: 180)
+                                
+                                Image("OpenWorld").resizable().scaledToFit().frame(width: 84, height: 84)
+                                
+                                
+                                
+                            }
+                            
+                        })
+                    }
                     
-                    Button(action: {}, label: {
-                        
-                        ZStack{
-                            
-                            RoundedRectangle(cornerRadius: 8)
-                                .fill(Color("Blue-Gray"))
-                                .frame(width: 160, height: 90)
-                            
-                            Image("FPS").resizable().scaledToFit().frame(width: 42, height: 42)
-                            
-                            
-                            
-                        }
-                        
-                    })
+                }else{
                     
-                    Button(action: {}, label: {
+                    HStack{
                         
-                        ZStack{
+                        Button(action: {}, label: {
                             
-                            RoundedRectangle(cornerRadius: 8)
-                                .fill(Color("Blue-Gray"))
-                                .frame(width: 160, height: 90)
+                            ZStack{
+                                
+                                RoundedRectangle(cornerRadius: 8)
+                                    .fill(Color("Blue-Gray"))
+                                    .frame(width: 160, height: 90)
+                                
+                                Image("FPS").resizable().scaledToFit().frame(width: 42, height: 42)
+                                
+                                
+                                
+                            }
                             
-                            Image("RPG").resizable().scaledToFit().frame(width: 42, height: 42)
-                            
-                            
-                            
-                        }
+                        })
                         
-                    })
-                    
-                    Button(action: {}, label: {
+                        Button(action: {}, label: {
+                            
+                            ZStack{
+                                
+                                RoundedRectangle(cornerRadius: 8)
+                                    .fill(Color("Blue-Gray"))
+                                    .frame(width: 160, height: 90)
+                                
+                                Image("RPG").resizable().scaledToFit().frame(width: 42, height: 42)
+                                
+                                
+                                
+                            }
+                            
+                        })
                         
-                        ZStack{
+                        Button(action: {}, label: {
                             
-                            RoundedRectangle(cornerRadius: 8)
-                                .fill(Color("Blue-Gray"))
-                                .frame(width: 160, height: 90)
+                            ZStack{
+                                
+                                RoundedRectangle(cornerRadius: 8)
+                                    .fill(Color("Blue-Gray"))
+                                    .frame(width: 160, height: 90)
+                                
+                                Image("OpenWorld").resizable().scaledToFit().frame(width: 42, height: 42)
+                                
+                                
+                                
+                            }
                             
-                            Image("OpenWorld").resizable().scaledToFit().frame(width: 42, height: 42)
-                            
-                            
-                            
-                        }
-                        
-                    })
+                        })
+                    }
                 }
+                
+                
+            
+            
+            
+            
+            
             }
             
             Text("RECOMENDADOS PARA TI").font(.title3).foregroundColor(.white).bold().frame(minWidth: 0, maxWidth: .infinity,alignment: .leading)

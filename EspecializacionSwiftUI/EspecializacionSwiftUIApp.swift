@@ -11,7 +11,7 @@ import SwiftUI
 struct EspecializacionSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            Assets2x3x()
+            ContentView()
         }
     }
 }
